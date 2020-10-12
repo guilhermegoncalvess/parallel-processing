@@ -1,0 +1,10 @@
+O objetivo desse programa é receber como argumento o tamanho de uma matriz quadrada, calcular a soma dos elementos da matriz,  imprimir esse valor e, finalmente, o tempo gasto no programa.
+No código vocês devem criar e inicializar uma matriz de tamanho N x N (podem inicializá-la com 1) e completar a função somaElementos que, como o próprio nome já diz, soma todos os elementos da matriz e retorna esse valor.
+
+Para executar o programa vocês devem fazer (no terminal): <nomeExecutavel> <N> 
+onde <nomeExecutavel> é o nome do programa gerado ao ser compilado o código e <N> é o tamanho da matriz a ser gerada. O valor de N é passado como argumento para o programa. 
+
+Como estamos trabalhando com experimentos para medir o tempo gasto, não faz sentido rodar o programa apenas uma vez (por quê?). Nesse caso, é aconselhável/recomendável executar o programa X vezes. Normalmente, X = 30. 
+Para facilitar, o arquivo run.sh (não sei se ele vai funcionar no Windows) executa o programa 30 vezes para diferentes valores de <N> e "direciona" as informações para um arquivo (saidaN.txt). O arquivo run.sh considera que seu programa se chama "programa", mude isso se precisar. Abra algum desses arquivos de saida gerados e veja o conteúdo dele. 
+
+Por fim, é mais interessante visualizarmos o tempo gasto (ou outras informações) usando um gráfico. Esse é o objetivo do GraficoPratica1.py (que usa a biblioteca matplotlib do python). Tente executar o código e veja o gráfico gerado (GraficoPratica1.pdf). Nas próximas aulas usaremos esse código para compararmos nossas implementações :)

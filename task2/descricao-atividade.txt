@@ -1,0 +1,19 @@
+Nessa atividade você deve implementar (em C ou C++) uma multiplicação de matrizes quadráticas (NxN). O arquivo MultiMatrix.c traz um esboço do programa, basta completá-lo com o calculo da multiplicação das matrizes. 
+
+Para compilar: gcc -o programa MultiMatrix.c
+
+Novamente, para executar o programa você devem fazer (no terminal): <nomeExecutavel> <N> 
+onde <nomeExecutavel> é o nome do programa gerado ao ser compilado o código e <N> é o tamanho da matriz a ser gerada. O valor de N é passado como argumento para o programa. 
+
+Você consegue pensar em alguma outra forma de implementar a multiplicação de matrizes que seja diferente da forma tradicional (sem mudar a complexidade)?
+
+Para cada versão, rode seu programa umas 30 vezes considerando N = {100, 200, 300, 500, 700}  e, para cada execução, salve o tempo gasto. Gere um gráfico (com a média e o desvio padrão) do tempo x N. 
+
+Utilize o arquivo run.sh para facilitar os experimentos.
+
+O que entregar? Nessa tarefa você deve enviar o arquivo MutiMatrix.c implementado/completado, o gráfico do tempo x N e uma descrição da(s) diferente(s) versão(ões) implementadas(s). 
+O arquivo de descrição, deve conter as informações do computador utilizado para fazer os experimentos e uma pequena descrição da(s) estratégia(s) usada(s). 
+
+Obs1: para cada versão implementada, certifique-se de que o algoritmo de multiplicação de matrizes está correto. 
+Obs2: se quiser, pode mudar a estrutura usada no código e/ou usar C++. Por exemplo, caso queira implementar em C++ pode usar vector.  
+Obs3: você gosta de outra linguagem (além de C/C++)? Que tal implementar esse código na sua linguagem favorita e comparar o tempo gasto entre as linguagens?
